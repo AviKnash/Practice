@@ -16,6 +16,6 @@ class Dog extends Animal {
 
 }
 
-const doggy = new Dog('H',5);
+const doggy = new Dog('Haton',5);
 
 console.log(doggy.age)
