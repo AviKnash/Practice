@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 30,
+      "isActive": true,
+      "roles": ["admin", "editor"],
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62701"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 25,
+      "isActive": false,
+      "roles": ["viewer"],
+      "address": {
+        "street": "456 Elm St",
+        "city": "Columbus",
+        "state": "OH",
+        "zipCode": "43085"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "age": 40,
+      "isActive": true,
+      "roles": ["editor"],
+      "address": {
+        "street": "789 Oak St",
+        "city": "Austin",
+        "state": "TX",
+        "zipCode": "73301"
+      }
+    }
+  ]
+  
