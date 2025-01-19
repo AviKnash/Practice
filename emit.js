@@ -1,8 +1,19 @@
-const map = new Array([
-    ['name', 'Alice'],
-    ['age', 30]
-  ]);
-  
-  // Convert Map to an object
-console.log(map)
-  console.log(Array.isArray(map))
+const fs = require("fs")
+
+function something() {
+    let item;
+
+    return new Promise((res,rej)=>{
+        fs.readFile("file.txt","utf-8",(err,data)=>{
+            if (err) rej(err)
+
+                res(data)
+        })
+    })
+
+};
+
+const dat = something().then((res)=>
+
+console.log(res)
+);
